@@ -1,0 +1,26 @@
+# ---------- Python / Jupyter 运行时产物 ----------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+Untitled.ipynb
+
+# ---------- 原始数据与清洗中间件 ----------
+# Tableau 官方示例数据不再分发，请从 README 第 2 节的官方地址自行下载
+data/raw/
+# CSV / PKL / SQLite 均可由 scripts/02_clean.py 重新生成
+data/clean/
+
+# ---------- 临时与草稿 ----------
+daima/
+_新论文.docx
+docs/_*.docx
+*初稿*.docx
+
+# ---------- 系统与编辑器 ----------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ---------- 运行期日志 ----------
+*.log

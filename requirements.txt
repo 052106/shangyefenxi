@@ -1,0 +1,19 @@
+# ---------------------------------------------------------------
+# 商业数据分析期末大作业 —— 运行依赖
+# 环境：conda create -n business_analysis python=3.10
+# 安装：pip install -r requirements.txt
+# 测试环境：Python 3.10.21 / Windows 11
+# ---------------------------------------------------------------
+pandas==2.3.3
+numpy==2.2.5
+xlrd==2.0.2                 # 读取 .xls 原始文件（Superstore 为 xls 格式）
+openpyxl==3.1.5             # 读取/写出 xlsx
+matplotlib==3.10.9          # 模板复现图与业务图
+seaborn==0.13.2             # 热力图
+scipy==1.15.3               # PCHIP 平滑插值
+statsmodels==0.15.0         # SARIMA / Holt-Winters 时间序列预测
+scikit-learn==1.7.2         # K-Means 聚类、轮廓系数
+mlxtend==0.23.4             # Apriori 关联规则
+jupyter==1.1.1              # 运行 notebooks
+nbconvert==7.17.1           # 命令行执行 notebook
+nbformat==5.11.0

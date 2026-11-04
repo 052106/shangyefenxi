@@ -1,0 +1,26 @@
+﻿工作表,字段,数据类型,非空数,缺失数,缺失率,唯一值数
+Orders,Row ID,int64,10194,0,0.0,10194
+Orders,Order ID,object,10194,0,0.0,5111
+Orders,Order Date,datetime64[ns],10194,0,0.0,1242
+Orders,Ship Date,datetime64[ns],10194,0,0.0,1338
+Orders,Ship Mode,object,10194,0,0.0,4
+Orders,Customer ID,object,10194,0,0.0,804
+Orders,Customer Name,object,10194,0,0.0,800
+Orders,Segment,object,10194,0,0.0,3
+Orders,Country/Region,object,10194,0,0.0,2
+Orders,City,object,10194,0,0.0,542
+Orders,State/Province,object,10194,0,0.0,59
+Orders,Postal Code,object,10194,0,0.0,654
+Orders,Region,object,10194,0,0.0,4
+Orders,Product ID,object,10194,0,0.0,1862
+Orders,Category,object,10194,0,0.0,3
+Orders,Sub-Category,object,10194,0,0.0,17
+Orders,Product Name,object,10194,0,0.0,1849
+Orders,Sales,float64,10194,0,0.0,6161
+Orders,Quantity,int64,10194,0,0.0,14
+Orders,Discount,float64,10194,0,0.0,12
+Orders,Profit,float64,10194,0,0.0,7597
+People,Regional Manager,object,4,0,0.0,4
+People,Region,object,4,0,0.0,4
+Returns,Order ID,object,296,0,0.0,296
+Returns,Returned,object,296,0,0.0,1
